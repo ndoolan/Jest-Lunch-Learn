@@ -1,0 +1,21 @@
+{
+  "name": "jest_lunch_and_learn",
+  "version": "1.0.0",
+  "description": "Jest Async Lunch and Learn",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "jest": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "Nick Doolan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.3",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.3"
+  }
+}
